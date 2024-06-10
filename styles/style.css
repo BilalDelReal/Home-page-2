@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.btn{
+    @apply py-3 px-3.5 rounded-[8px] text-[1rem] font-bold
+}
+
+.icons{
+    @apply rounded-2xl bg-orange-strong w-[65px] h-[65px] items-center flex
+}
+.h1-pref {
+    @apply text-2xl text-blue-dark font-[900] uppercase max-w-[180px] leading-7 mb-6 tracking-normal
+}

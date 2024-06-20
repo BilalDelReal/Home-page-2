@@ -19,18 +19,23 @@
 </head>
 
 <body>
-<header class="sm:max-w-[20.438rem] mx-auto flex justify-between items-center mt-4 mb-16 md:max-w-[43.063rem]">
+
+<header class="sm:max-w-[20.438rem] mx-auto flex justify-between items-center mt-4 mb-16 md:max-w-[43.063rem] xl:max-w-[1110px]">
     <div>
         <img src="assets/shared/logo.svg" alt="Logo naranja pone TM">
     </div>
     <button class="btn bg-grey-light text-blue-dark hover:bg-blue-dark hover:text-white"> PRE-ORDER NOW</button>
 </header>
-<main class="sm:max-w-[23.438rem] mx-auto overflow-hidden md:max-w-[48rem] ">
-    <section class="sm:max-w-[20.438rem] mx-auto sm:mb-6 md:flex md:max-w-[43.063rem] md:relative sm:mb-7 md:mb-10">
+
+<main class="sm:max-w-[23.438rem] mx-auto overflow-hidden md:max-w-[48rem] xl:max-w-[1440px] relative">
+    <div class="h-[240px] w-[255px] bg-[#E8EFF2] absolute rounded-[20px] top-0 left-[1295px] sm:hidden xl:block"></div>
+    <section
+            class="sm:max-w-[20.438rem] mx-auto sm:mb-6 md:flex md:max-w-[43.063rem] md:relative sm:mb-7 md:mb-10 xl:max-w-[1110px] xl:justify-between xl:mb-7">
         <article class="md:max-w-[339px] md:mt-[60px]">
             <div>
                 <h1 class="text-5xl font-extrabold text-blue-dark mb-8">TYPEMASTER KEYBOARD</h1>
-                <p class=" font-[500] text-grey-strong mb-[2rem]">Improve your productivity and gaming without breaking the bank.
+                <p class=" font-[500] text-grey-strong mb-[2rem]">Improve your productivity and gaming without breaking
+                    the bank.
                     Upgrade to a high quality mechanical typing experience.</p>
             </div>
             <div class="flex  items-center sm:mb-16 gap-x-[37px]">
@@ -38,45 +43,56 @@
                 <span class="text-grey-strong font-bold">RELEASE ON 5/27</span>
             </div>
         </article>
-        <div class="md:max-w-[478px] md:absolute md:right-[-196px] object-cover">
+        <div class="md:max-w-[478px] md:absolute md:right-[-196px] object-cover xl:static xl:max-w-[540px]">
             <picture>
-                <source  media="(min-width: 768px)" srcset="assets/tablet/image-keyboard.jpg">
-                <img class="  rounded-l-[1.25rem] " src="assets/mobile/image-keyboard.jpg" srcset="assets/tablet/image-keyboard.jpg 768px"  alt="imagen de un teclado">
+                <source media="(min-width: 1280px)" srcset="assets/desktop/image-keyboard.jpg">
+                <source media="(min-width: 768px)" srcset="assets/tablet/image-keyboard.jpg">
+                <img class="  rounded-l-[1.25rem] xl:rounded-[1.25rem] " src="assets/mobile/image-keyboard.jpg"
+                     srcset="assets/tablet/image-keyboard.jpg 768px" alt="imagen de un teclado">
             </picture>
         </div>
     </section>
-    <section class="sm:mb-[111px] md:max-w-[43.063rem] md:mx-auto ">
-        <div class="flex sm:max-w-[373px] sm:ml-auto sm:gap-x-6 sm:justify-end relative sm:mb-[75px] md:justify-between md:ml-0  md:mx-auto md:max-w-[43.063rem]" >
-            <div class="sm:max-w-[129px] sm:absolute sm:left-[-22px] md:static md:max-w-[214px]">
+    <div class="h-[240px] w-[255px] bg-[#E8EFF2] absolute rounded-[20px] top-[747px] left-[-115px] sm:hidden xl:block">
+    </div>
+    <section class="sm:mb-[111px] md:max-w-[43.063rem] md:mx-auto xl:max-w-[1110px] xl:flex ">
+        <div class="flex sm:max-w-[373px] sm:ml-auto sm:gap-x-6 sm:justify-end relative sm:mb-[75px] md:justify-between md:ml-0  md:mx-auto md:max-w-[43.063rem] xl:max-w-full xl:mr-32">
+            <div class="sm:max-w-[129px] sm:absolute sm:left-[-22px] md:static md:max-w-[214px] xl:max-w-[255px]">
                 <picture>
-                    <source media="(min-width: 768px)" srcset="assets/tablet/image-phone-and-keyboard.jpg">
                     <source media="(min-width: 1024px)" srcset="assets/desktop/image-phone-and-keyboard.jpg">
+                    <source media="(min-width: 768px)" srcset="assets/tablet/image-phone-and-keyboard.jpg">
                     <img class="rounded-[0.75rem]"
                          src="assets/mobile/image-phone-and-keyboard.jpg" alt="imagen de un teclado con un mobil">
                 </picture>
             </div>
-            <div class="sm:max-w-[220px] md:max-w-[445px]  sm:mr-6 md:mr-0">
-                <picture >
-                    <source media="(min-width: 768px)" srcset="assets/tablet/image-glass-and-keyboard.jpg">
+            <div class="sm:max-w-[220px] md:max-w-[445px]  sm:mr-6 md:mr-0 xl:max-w-[445px]">
+                <picture>
                     <source media="(min-width: 1024px)" srcset="assets/desktop/image-glass-and-keyboard.jpg">
+                    <source media="(min-width: 768px)" srcset="assets/tablet/image-glass-and-keyboard.jpg">
                     <img class="rounded-[0.75rem]"
                          src="assets/mobile/image-glass-and-keyboard.jpg" alt="imagen de un teclado, raton y un vaso">
                 </picture>
             </div>
         </div>
-        <article class=" flex flex-col sm:items-center text-center md:flex-row md:text-start md:gap-x-9">
-            <h1 class="text-[2rem] font-extrabold uppercase sm:max-w-[255px] leading-9 sm:mb-6 text-blue-dark md:m-0">mechanical wireless Keyboard</h1>
-            <p class=" font-[500] text-grey-strong sm:max-w-[327px]">The Typemaster keyboard boasts top-notch build and practical design. It offers a wide variety of switches and keycaps, along with reliable wireless connectivity.</p>
+        <article
+                class=" flex flex-col sm:items-center text-center md:flex-row md:text-start md:gap-x-9 xl:flex-col xl:items-start xl:justify-center xl:gap-y-7">
+            <h1 class="text-[2rem] font-extrabold uppercase sm:max-w-[255px] leading-9 sm:mb-6 text-blue-dark md:m-0 xl:">
+                mechanical wireless Keyboard</h1>
+            <p class=" font-[500] text-grey-strong sm:max-w-[327px] xl:max-w-[255px]">The Typemaster keyboard boasts
+                top-notch build and practical design. It offers a wide variety of switches and keycaps, along with
+                reliable wireless connectivity.</p>
         </article>
     </section>
-    <section class="sm:max-w-[327px] md:max-w-[39.438rem] flex flex-wrap mx-auto gap-y-16 sm:mb-[96px] gap-[69px]">
+    <section
+            class="sm:max-w-[327px] md:max-w-[39.438rem] flex flex-wrap mx-auto gap-y-16 sm:mb-[96px] gap-[69px] xl:max-w-[1110px] xl:gap-0 xl:gap-x-7">
         <article class="flex flex-col sm:items-center md:items-start">
             <div class="icons mb-12 max-w-[65px]">
                 <img class="mx-auto" src="assets/shared/icon-compatible.svg" alt="icono de un monitor">
             </div>
             <div class="text-center flex flex-col items-center md:text-start md:items-start md:max-w-[339px]">
                 <h1 class="h1-pref">highly compatible</h1>
-                <p class="text-grey-strong font-[500] md:max-w-[281px]">Easy to use and works well with all major computer brands, gaming consoles and mobile devices. Plug & play, no installation or driver needed.</p>
+                <p class="text-grey-strong font-[500] md:max-w-[281px] xl:max-w-[255px]">Easy to use and works well with
+                    all major computer brands, gaming consoles and mobile devices. Plug & play, no installation or
+                    driver needed.</p>
             </div>
         </article>
         <article class="flex flex-col items-center md:items-start ">
@@ -85,7 +101,9 @@
             </div>
             <div class="text-center flex flex-col items-center md:max-w-[339px] md:items-start md:text-start">
                 <h1 class="h1-pref">WIRELESS WITH BLUETOOTH</h1>
-                <p class="text-grey-strong font-[500] md:max-w-[281px]">Powerful 2.4G RF technology allows you to connect the cordless keyboard from up to 30ft away. Simply plug the unifying receiver into your computer.</p>
+                <p class="text-grey-strong font-[500] md:max-w-[281px] xl:max-w-[255px]">Powerful 2.4G RF technology
+                    allows you to connect the cordless keyboard from up to 30ft away. Simply plug the unifying receiver
+                    into your computer.</p>
             </div>
         </article>
         <article class="flex flex-col items-center md:items-start">
@@ -94,7 +112,9 @@
             </div>
             <div class="text-center flex flex-col items-center md:max-w-[339px] md:items-start md:text-start">
                 <h1 class="h1-pref">HIGH CAPACITY BATTERY</h1>
-                <p class="text-grey-strong font-[500] md:max-w-[281px]">Equipped with a long-lasting built-in battery, you’ll never have to spend a dime on replaceable ones. Enjoy 40 hours of usage time between charges.</p>
+                <p class="text-grey-strong font-[500] md:max-w-[281px] xl:max-w-[255px]">Equipped with a long-lasting
+                    built-in battery, you’ll never have to spend a dime on replaceable ones. Enjoy 40 hours of usage
+                    time between charges.</p>
             </div>
         </article>
         <article class="flex flex-col items-center md:items-start">
@@ -103,12 +123,15 @@
             </div>
             <div class="text-center flex flex-col items-center md:max-w-[339px] md:items-start md:text-start">
                 <h1 class="h1-pref">RGB BACKLIT MODES</h1>
-                <p class="text-grey-strong font-[500] md:max-w-[281px]">Choose from 4 backlight brightness levels and adjustable breathing speed. Each key glows intensely in the dark and helps you type in low light conditions.</p>
+                <p class="text-grey-strong font-[500] md:max-w-[281px] xl:max-w-[255px]">Choose from 4 backlight
+                    brightness levels and adjustable breathing speed. Each key glows intensely in the dark and helps you
+                    type in low light conditions.</p>
             </div>
         </article>
     </section>
     <footer class="flex justify-center mb-14">
-        <p class="text-grey-strong"><span class="font-bold">Typemaster 2021</span> <span class="mx-1">|</span>  All Rights Reserved</p>
+        <p class="text-grey-strong"><span class="font-bold">Typemaster 2021</span> <span class="mx-1">|</span> All
+            Rights Reserved</p>
     </footer>
 </main>
 </body>
